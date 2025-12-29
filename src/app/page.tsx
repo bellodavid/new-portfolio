@@ -4,67 +4,129 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="home-page">
-      <section className="hero-section fade-in-up">
-        <div className="hero-content">
-          <h1>Hi, I'm David Bello.</h1>
-          <p className="intro-text">
-            Full-stack engineer and entrepreneur building the future of digital finance. Founder of DBMansion, building AI-powered compliance tools for financial institutions. At BananaCrystal, I built P2P trading platforms and payment infrastructure serving 150+ countries.
-          </p>
-          <p className="intro-subtext">
-            Founder & CEO at <a href="https://dbmansion.com" target="_blank" rel="noopener noreferrer">DBMansion</a>. Software Engineer at <a href="https://bananacrystal.com" target="_blank" rel="noopener noreferrer">BananaCrystal</a>.
-          </p>
-          <div className="cta-buttons" style={{ marginTop: '2rem' }}>
-            <Link href="/projects" className="btn-primary">View Projects</Link>
-            <Link href="/experience" className="btn-secondary" style={{ marginLeft: '1rem' }}>Experience</Link>
+      {/* Hero Section with Gradient */}
+      <section className="hero-section-modern fade-in-up">
+        <div className="hero-gradient-bg"></div>
+        <div className="hero-content-modern">
+          <div className="hero-text">
+            <p className="hero-label">Full-Stack Engineer & Entrepreneur</p>
+            <h1 className="hero-title">
+              Building the Future of <span className="gradient-text">Digital Finance</span>
+            </h1>
+            <p className="hero-description">
+              Founder of DBMansion, building AI-powered compliance tools for financial institutions.
+              At BananaCrystal, I built P2P trading platforms and payment infrastructure serving 150+ countries.
+            </p>
+
+            {/* Statistics */}
+            <div className="stats-grid">
+              <div className="stat-item">
+                <div className="stat-number">150+</div>
+                <div className="stat-label">Countries Served</div>
+              </div>
+              <div className="stat-item">
+                <div className="stat-number">60%</div>
+                <div className="stat-label">Efficiency Gain</div>
+              </div>
+              <div className="stat-item">
+                <div className="stat-number">0.4%</div>
+                <div className="stat-label">Slippage Rate</div>
+              </div>
+            </div>
+
+            <div className="hero-cta">
+              <Link href="/projects" className="btn-primary-modern">
+                View My Work
+                <span className="arrow">→</span>
+              </Link>
+              <Link href="/about" className="btn-secondary-modern">
+                About Me
+              </Link>
+            </div>
           </div>
-        </div>
-        <div className="hero-image">
-          <Image
-            src="/profile.png"
-            alt="David Bello"
-            width={200}
-            height={200}
-            priority
-          />
+
+          <div className="hero-image-modern">
+            <div className="image-wrapper">
+              <Image
+                src="/profile.png"
+                alt="David Bello"
+                width={300}
+                height={300}
+                priority
+                className="profile-image"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="featured-section fade-in-up delay-200">
-        <div className="container">
-          <h2>What I Build</h2>
-          <div className="feature-grid">
-            <div className="feature-item">
-              <Image
-                src="/fintech-icon.png"
-                alt="Fintech"
-                width={64}
-                height={64}
-                className="feature-icon"
-              />
-              <h3>P2P Trading Platforms</h3>
-              <p>Built mobile apps for peer-to-peer currency trading, cutting out banks entirely. Users trade USD with local currencies directly - now serving 150+ countries with instant settlements.</p>
+      {/* Featured Work */}
+      <section className="featured-work-section fade-in-up delay-100">
+        <div className="section-header">
+          <h2>Featured Work</h2>
+          <p className="section-subtitle">Building production systems that serve thousands of users globally</p>
+        </div>
+
+        <div className="featured-grid">
+          <div className="featured-card">
+            <div className="card-badge founder">Founder & CEO</div>
+            <h3>DBMansion</h3>
+            <p>AI-powered compliance and data security platform for financial institutions. Cut manual review time by 60% with real-time anomaly detection.</p>
+            <div className="card-tech">
+              <span>AI/ML</span>
+              <span>Compliance</span>
+              <span>Data Security</span>
             </div>
-            <div className="feature-item">
-              <Image
-                src="/blockchain-icon.png"
-                alt="Blockchain"
-                width={64}
-                height={64}
-                className="feature-icon"
-              />
-              <h3>Blockchain Infrastructure</h3>
-              <p>Developed a CEX with 150+ stablecoin pairs, prediction marketplace with leverage trading, and multi-chain USDC offramp. Reduced slippage from 2.1% to 0.4% through automated rebalancing.</p>
+            <Link href="/projects" className="card-link">
+              Learn more →
+            </Link>
+          </div>
+
+          <div className="featured-card">
+            <div className="card-badge live">Live Product</div>
+            <h3>Liquidity Pool & CEX</h3>
+            <p>Complete trading platform with 150+ stablecoin pairs, prediction marketplace, and multi-chain offramp. Reduced slippage from 2.1% to 0.4%.</p>
+            <div className="card-tech">
+              <span>Blockchain</span>
+              <span>AMM</span>
+              <span>Smart Contracts</span>
             </div>
-            <div className="feature-item">
-              <Image
-                src="/mobile-icon.png"
-                alt="AI & Compliance"
-                width={64}
-                height={64}
-                className="feature-icon"
-              />
-              <h3>AI-Powered Compliance</h3>
-              <p>Building intelligent fintech infrastructure at DBMansion. Our AI tools cut manual compliance review time by 60% and flag transaction anomalies in real-time for financial institutions.</p>
+            <Link href="/projects" className="card-link">
+              Learn more →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Tech Stack */}
+      <section className="tech-stack-section fade-in-up delay-200">
+        <h2>Technical Expertise</h2>
+        <div className="tech-categories">
+          <div className="tech-category">
+            <h4>Mobile & Web</h4>
+            <div className="tech-tags">
+              <span>React Native</span>
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Next.js</span>
+            </div>
+          </div>
+          <div className="tech-category">
+            <h4>Backend & Infrastructure</h4>
+            <div className="tech-tags">
+              <span>Node.js</span>
+              <span>Ruby on Rails</span>
+              <span>AWS</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+          <div className="tech-category">
+            <h4>Blockchain & AI</h4>
+            <div className="tech-tags">
+              <span>Hedera Hashgraph</span>
+              <span>Smart Contracts</span>
+              <span>AI/ML</span>
+              <span>Solidity</span>
             </div>
           </div>
         </div>
