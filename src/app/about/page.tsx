@@ -5,7 +5,7 @@ export default function About() {
 
             <div className="about-content fade-in-up delay-100">
                 <p>
-                    I'm a full-stack software engineer and entrepreneur building the future of digital finance. My work spans P2P currency trading platforms, decentralized exchanges, payment infrastructure, and AI-powered compliance tools - all focused on making financial services more accessible and efficient.
+                    I'm a full-stack software engineer and entrepreneur building the future of digital finance. My work spans P2P currency trading platforms, decentralized exchanges, payment infrastructure, and AI-powered compliance tools, all focused on making financial services more accessible and efficient.
                 </p>
 
                 <h2>What I'm Building</h2>
@@ -14,16 +14,16 @@ export default function About() {
                 </p>
 
                 <p>
-                    At <strong>BananaCrystal</strong>, I built the mobile app from scratch as part of the team. The platform is a P2P currency trading ecosystem where users can trade USD with their local currencies directly - cutting out banks and exchange bureaus entirely. Features include instant P2P payments worldwide (almost free using blockchain rails), a Virtual Terminal for businesses, dual interest investment accounts, and Visa-compatible crypto debit cards, now serving 150+ countries.
+                    At <strong>BananaCrystal</strong>, I built the mobile app from scratch as part of the team. The platform is a P2P currency trading ecosystem where users can trade USD with their local currencies directly, cutting out banks and exchange bureaus entirely. Features include instant P2P payments worldwide (almost free using blockchain rails), a Virtual Terminal for businesses, dual interest investment accounts, and Visa-compatible crypto debit cards, now serving 150+ countries.
                 </p>
 
                 <h2>Technical Highlights</h2>
                 <p>
-                    I built the <strong>BananaCrystal Liquidity Pool</strong> solo - a complete trading platform featuring a CEX with 150+ stablecoin pairs, prediction marketplace where users create long/short offers with leverage, and multi-chain USDC offramp to bank accounts in 150+ countries. Reduced slippage from 2.1% to 0.4% through automated rebalancing algorithms.
+                    I built the <strong>BananaCrystal Liquidity Pool</strong> solo, a complete trading platform featuring a CEX with 150+ stablecoin pairs, prediction marketplace where users create long/short offers with leverage, and multi-chain USDC offramp to bank accounts in 150+ countries. Reduced slippage from 2.1% to 0.4% through automated rebalancing algorithms.
                 </p>
 
                 <p>
-                    Created a <strong>crypto payment SDK</strong> that's published on NPM, enabling merchants to accept cryptocurrency payments seamlessly. Built for both web and mobile platforms with comprehensive documentation. Also developed the complete mobile app infrastructure using React Native - took it from designs to production in 4 months.
+                    Created a <strong>crypto payment SDK</strong> that's published on NPM, enabling merchants to accept cryptocurrency payments seamlessly. Built for both web and mobile platforms with comprehensive documentation. Also developed the complete mobile app infrastructure using React Native, took it from designs to production in 4 months.
                 </p>
 
                 <p>
@@ -36,7 +36,7 @@ export default function About() {
                 </p>
 
                 <p>
-                    I thrive in challenging environments where I can solve complex problems - whether it's optimizing performance for varying network conditions, designing secure P2P payment systems, or building AI-powered compliance tools that actually work in production.
+                    I thrive in challenging environments where I can solve complex problems, whether it's optimizing performance for varying network conditions, designing secure P2P payment systems, or building AI-powered compliance tools that actually work in production.
                 </p>
             </div>
 

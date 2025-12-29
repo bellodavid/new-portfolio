@@ -18,22 +18,6 @@ export default function Home() {
               At BananaCrystal, I built P2P trading platforms and payment infrastructure serving 150+ countries.
             </p>
 
-            {/* Statistics */}
-            <div className="stats-grid">
-              <div className="stat-item">
-                <div className="stat-number">150+</div>
-                <div className="stat-label">Countries Served</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">60%</div>
-                <div className="stat-label">Efficiency Gain</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">0.4%</div>
-                <div className="stat-label">Slippage Rate</div>
-              </div>
-            </div>
-
             <div className="hero-cta">
               <Link href="/projects" className="btn-primary-modern">
                 View My Work

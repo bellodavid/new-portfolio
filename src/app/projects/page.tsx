@@ -3,7 +3,7 @@ export default function Projects() {
         <div className="projects-page">
             <h1 className="fade-in-up">Projects</h1>
             <p className="projects-intro">
-                Building the future of digital finance - from currency digitization and prediction markets to multi-chain crypto offramps and payment infrastructure. These production systems process real transactions for users across 150+ countries.
+                Building the future of digital finance, from currency digitization and prediction markets to multi-chain crypto offramps and payment infrastructure. These production systems process real transactions for users across 150+ countries.
             </p>
 
             <div className="projects-grid">
@@ -73,7 +73,7 @@ export default function Projects() {
                 {/* Hedera Liquidity Pool & CEX */}
                 <div className="project-card fade-in-up delay-400">
                     <div className="project-header">
-                        <h2>BananaCrystal Liquidity Pool (Hedera ) </h2>
+                        <h2>BananaCrystal Liquidity Pool (Hedera) </h2>
                         <span className="project-badge live">Live Product</span>
                     </div>
                     <p className="project-description">
