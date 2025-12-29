@@ -25,15 +25,17 @@ export default function Experience() {
                         <span className="date">March 2024 - Present</span>
                     </div>
                     <ul className="timeline-details">
-                        <li>Built the P2P currency trading platform from scratch using React Native - users can trade USD with local currencies directly, cutting out banks and exchange bureaus.</li>
+                        <li>Led the complete development of the BananaCrystal mobile app from idea to production, now used by thousands worldwide.</li>
+                        <li>Built P2P currency trading platform where users trade USD with local currencies directly - cutting out banks and exchange bureaus.</li>
                         <li>Developed instant P2P payment system that lets users send money to anyone worldwide, almost for free using blockchain rails.</li>
                         <li>Created Virtual Terminal (POS) feature for businesses to accept crypto payments and send payouts - cheaper and faster than traditional payment rails.</li>
+                        <li>Designed and launched a currency swap system on the Hedera network supporting 150+ stablecoins.</li>
+                        <li>Implemented an AMM (Automated Market Maker) to keep exchange rates balanced and ensure smooth liquidity.</li>
                         <li>Built dual interest investment accounts where users earn returns in two places simultaneously.</li>
-                        <li>Integrated Visa-compatible crypto debit cards that work at any POS, online store, or ATM worldwide.</li>
-                        <li>Handled regulatory compliance and registration as a VASP with FINCEN (U.S.) and FINTRAC (Canada).</li>
-                        <li>Created a payment SDK for merchants to accept crypto. Published it on NPM and got around 200 downloads in the first month.</li>
+                        <li>Delivered the BananaCrystal USD Debit Card (BC Card), linked with offshore SWIFT accounts and usable at any Visa-accepting location.</li>
+                        <li>Created a payment SDK for merchants to accept crypto. Published it on NPM.</li>
                         <li>Set up the transaction pipeline to handle Hedera operations. Added retry logic that recovered about 95% of initially failed transactions.</li>
-                        <li>Expanded platform to serve users in 150+ countries, providing USD-denominated accounts globally.</li>
+                        <li>Provided US Dollar accounts in 150+ countries, helping users protect funds from local currency risks.</li>
                     </ul>
                 </div>
 

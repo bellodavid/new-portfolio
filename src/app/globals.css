@@ -525,7 +525,6 @@ p {
 
 /* About Page Enhancements */
 .about-header {
-  text-align: center;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-color);
@@ -542,7 +541,6 @@ p {
   background: var(--bg-blue-tint);
   padding: 3rem 2rem;
   border-radius: 12px;
-  text-align: center;
   margin-top: 4rem;
 }
 

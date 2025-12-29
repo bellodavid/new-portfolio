@@ -28,14 +28,35 @@ export default function Projects() {
                     </a>
                 </div>
 
-                {/* BananaCrystal Mobile App */}
+                {/* AwaCash Mobile App */}
                 <div className="project-card fade-in-up delay-200">
+                    <div className="project-header">
+                        <h2>AwaCash Mobile App</h2>
+                        <span className="project-badge live">Live Product</span>
+                    </div>
+                    <p className="project-description">
+                        Cross-border money transfer and digital banking app serving users across 15+ countries. Built features for international remittances with low fees, streamlined loan application flow (reduced from 8 to 4 steps), and optimized performance. Cut app load time from 4.2s to 1.8s and reduced API errors by 40% during my time on the project.
+                    </p>
+                    <div className="tech-stack">
+                        <span>React Native</span>
+                        <span>TypeScript</span>
+                        <span>Mobile Banking</span>
+                        <span>Cross-Border Payments</span>
+                        <span>API Integration</span>
+                    </div>
+                    <a href="https://awacashmfb.com" target="_blank" rel="noopener noreferrer" className="project-link">
+                        Visit Site &rarr;
+                    </a>
+                </div>
+
+                {/* BananaCrystal Mobile App */}
+                <div className="project-card fade-in-up delay-300">
                     <div className="project-header">
                         <h2>BananaCrystal Mobile App</h2>
                         <span className="project-badge live">Live Product</span>
                     </div>
                     <p className="project-description">
-                        P2P currency trading platform that lets users trade USD with their local currencies directly with other traders - no banks or bureau de change needed. Built features for instant P2P payments worldwide, Virtual Terminal (POS) for businesses, dual interest investment accounts, and crypto debit cards usable at any Visa-accepting location. Registered as a VASP with FINCEN (U.S.) and FINTRAC (Canada). Took it from designs to production, now serving 150+ countries.
+                        P2P currency trading platform that lets users trade USD with their local currencies directly with other traders - no banks or bureau de change needed. Built features for instant P2P payments worldwide, Virtual Terminal (POS) for businesses, dual interest investment accounts, and crypto debit cards usable at any Visa-accepting location. Took it from designs to production, now serving 150+ countries.
                     </p>
                     <div className="tech-stack">
                         <span>React Native</span>
@@ -50,9 +71,9 @@ export default function Projects() {
                 </div>
 
                 {/* Hedera Liquidity Pool & CEX */}
-                <div className="project-card fade-in-up delay-300">
+                <div className="project-card fade-in-up delay-400">
                     <div className="project-header">
-                        <h2>Hedera Liquidity Pool & CEX</h2>
+                        <h2>BananaCrystal Liquidity Pool (Hedera ) </h2>
                         <span className="project-badge live">Live Product</span>
                     </div>
                     <p className="project-description">
@@ -67,7 +88,7 @@ export default function Projects() {
                         <span>Predictive Analytics</span>
                     </div>
                     <a href="https://liquidity.bananacrystal.com" target="_blank" rel="noopener noreferrer" className="project-link">
-                        Launch DEX &rarr;
+                        Launch Platform &rarr;
                     </a>
                 </div>
 
