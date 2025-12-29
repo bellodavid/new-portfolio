@@ -8,14 +8,14 @@ export default function Home() {
         <div className="hero-content">
           <h1>Hi, I'm David Bello.</h1>
           <p className="intro-text">
-            I'm a Full-stack Software Engineer and Fintech Founder. I build intelligent infrastructure for the future of finance.
+            Full-stack engineer and entrepreneur building the future of digital finance. Founder of DBMansion, building AI-powered compliance tools for financial institutions. At BananaCrystal, I built P2P trading platforms and payment infrastructure serving 150+ countries.
           </p>
           <p className="intro-subtext">
-            Founder at <a href="https://dbmansion.com" target="_blank" rel="noopener noreferrer">DBMansion</a>. Lead Mobile Developer at <a href="https://bananacrystal.com" target="_blank" rel="noopener noreferrer">BananaCrystal</a>.
+            Founder & CEO at <a href="https://dbmansion.com" target="_blank" rel="noopener noreferrer">DBMansion</a>. Software Engineer at <a href="https://bananacrystal.com" target="_blank" rel="noopener noreferrer">BananaCrystal</a>.
           </p>
           <div className="cta-buttons" style={{ marginTop: '2rem' }}>
-            <Link href="/experience" className="btn-primary">View Experience</Link>
-            <Link href="/projects" className="btn-secondary" style={{ marginLeft: '1rem' }}>See Projects</Link>
+            <Link href="/projects" className="btn-primary">View Projects</Link>
+            <Link href="/experience" className="btn-secondary" style={{ marginLeft: '1rem' }}>Experience</Link>
           </div>
         </div>
         <div className="hero-image">
@@ -31,7 +31,7 @@ export default function Home() {
 
       <section className="featured-section fade-in-up delay-200">
         <div className="container">
-          <h2>What I Do</h2>
+          <h2>What I Build</h2>
           <div className="feature-grid">
             <div className="feature-item">
               <Image
@@ -41,19 +41,8 @@ export default function Home() {
                 height={64}
                 className="feature-icon"
               />
-              <h3>Fintech Infrastructure</h3>
-              <p>Building secure, scalable systems for crypto payments, stablecoins, and multi-currency wallets.</p>
-            </div>
-            <div className="feature-item">
-              <Image
-                src="/mobile-icon.png"
-                alt="Mobile Engineering"
-                width={64}
-                height={64}
-                className="feature-icon"
-              />
-              <h3>Mobile Engineering</h3>
-              <p>Leading end-to-end development of cross-platform mobile apps using React Native and Kotlin.</p>
+              <h3>P2P Trading Platforms</h3>
+              <p>Built mobile apps for peer-to-peer currency trading, cutting out banks entirely. Users trade USD with local currencies directly - now serving 150+ countries with instant settlements.</p>
             </div>
             <div className="feature-item">
               <Image
@@ -63,8 +52,19 @@ export default function Home() {
                 height={64}
                 className="feature-icon"
               />
-              <h3>Blockchain Solutions</h3>
-              <p>Specialized in Hedera network integrations, smart contracts, and AMM systems.</p>
+              <h3>Blockchain Infrastructure</h3>
+              <p>Developed a CEX with 150+ stablecoin pairs, prediction marketplace with leverage trading, and multi-chain USDC offramp. Reduced slippage from 2.1% to 0.4% through automated rebalancing.</p>
+            </div>
+            <div className="feature-item">
+              <Image
+                src="/mobile-icon.png"
+                alt="AI & Compliance"
+                width={64}
+                height={64}
+                className="feature-icon"
+              />
+              <h3>AI-Powered Compliance</h3>
+              <p>Building intelligent fintech infrastructure at DBMansion. Our AI tools cut manual compliance review time by 60% and flag transaction anomalies in real-time for financial institutions.</p>
             </div>
           </div>
         </div>
