@@ -8,7 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "David Bello | Full-stack Engineer & Founder",
-  description: "Personal portfolio of David Bello, Full-stack Software Engineer and Founder of DBMansion.",
+  description: "Personal portfolio of David Bello, Full-stack Software Engineer and Founder of DBMansionlabs.",
+  icons: {
+    icon: '/trans-logo.png',
+    shortcut: '/trans-logo.png',
+    apple: '/trans-logo.png',
+  },
 };
 
 export default function RootLayout({
