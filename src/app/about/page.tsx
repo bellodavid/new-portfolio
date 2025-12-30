@@ -1,3 +1,5 @@
+import BookCall from '@/components/BookCall';
+
 export default function About() {
     return (
         <div className="about-page">
@@ -44,10 +46,10 @@ export default function About() {
                 <h2>Let's Connect</h2>
                 <p>Interested in collaborating or learning more about my work?</p>
                 <div className="about-links">
-                    <a href="https://linkedin.com/in/davidbello5" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                        LinkedIn
-                    </a>
-                    <a href="mailto:davidbello998@gmail.com" className="btn-secondary">
+                    <BookCall className="btn-primary">
+                        Book a Call
+                    </BookCall>
+                    <a href="mailto:david@dbmansion.com" className="btn-secondary">
                         Email Me
                     </a>
                 </div>
